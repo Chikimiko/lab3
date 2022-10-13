@@ -47,3 +47,15 @@ class ListExamples {
 
 
 }
+
+class StringCheckerClass implements StringChecker {
+  
+  public StringCheckerClass() {
+
+  }
+
+  public boolean checkString(String s) {
+    if (s.length() >= 4) {return true;}
+    return false;
+  }
+}
